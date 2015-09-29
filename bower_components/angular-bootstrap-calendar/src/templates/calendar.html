@@ -1,0 +1,61 @@
+<div class="cal-context" ng-switch="vm.view">
+
+  <div class="alert alert-danger" ng-switch-default>The value passed to the view attribute of the calendar is not set</div>
+
+  <div class="alert alert-danger" ng-hide="vm.currentDay">The value passed to current-day attribute of the calendar is not set</div>
+
+  <mwl-calendar-year
+    events="vm.events"
+    current-day="vm.currentDay"
+    on-event-click="vm.onEventClick"
+    on-event-times-changed="vm.onEventTimesChanged"
+    on-edit-event-click="vm.onEditEventClick"
+    on-delete-event-click="vm.onDeleteEventClick"
+    on-timespan-click="vm.onTimespanClick"
+    edit-event-html="vm.editEventHtml"
+    delete-event-html="vm.deleteEventHtml"
+    auto-open="vm.autoOpen"
+    cell-modifier="vm.cellModifier"
+    ng-switch-when="year"
+  ></mwl-calendar-year>
+
+  <mwl-calendar-month
+    events="vm.events"
+    current-day="vm.currentDay"
+    on-event-click="vm.onEventClick"
+    on-event-times-changed="vm.onEventTimesChanged"
+    on-edit-event-click="vm.onEditEventClick"
+    on-delete-event-click="vm.onDeleteEventClick"
+    on-timespan-click="vm.onTimespanClick"
+    edit-event-html="vm.editEventHtml"
+    delete-event-html="vm.deleteEventHtml"
+    auto-open="vm.autoOpen"
+    cell-modifier="vm.cellModifier"
+    cell-template-url="{{ vm.monthCellTemplateUrl }}"
+    cell-events-template-url="{{ vm.monthCellEventsTemplateUrl }}"
+    ng-switch-when="month"
+    ></mwl-calendar-month>
+
+  <mwl-calendar-week
+    events="vm.events"
+    current-day="vm.currentDay"
+    on-event-click="vm.onEventClick"
+    on-event-times-changed="vm.onEventTimesChanged"
+    day-view-start="vm.dayViewStart"
+    day-view-end="vm.dayViewEnd"
+    day-view-split="vm.dayViewSplit"
+    ng-switch-when="week"
+    ></mwl-calendar-week>
+
+  <mwl-calendar-day
+    events="vm.events"
+    current-day="vm.currentDay"
+    on-event-click="vm.onEventClick"
+    on-event-times-changed="vm.onEventTimesChanged"
+    on-timespan-click="vm.onTimespanClick"
+    day-view-start="vm.dayViewStart"
+    day-view-end="vm.dayViewEnd"
+    day-view-split="vm.dayViewSplit"
+    ng-switch-when="day"
+    ></mwl-calendar-day>
+</div>

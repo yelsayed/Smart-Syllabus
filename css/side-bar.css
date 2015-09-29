@@ -1,0 +1,214 @@
+.group {
+    color: black;
+    font-size: 36px;
+}
+.group .subgroup {
+    color: black;
+    font-size: 26px;
+}
+.post-thumb {
+    margin-top: 10px;
+    float: left
+}
+
+.post-content {
+    margin-left: 23px;
+}
+
+.btn-group {
+    width: 100%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.full-circle-info {
+    float:left;
+    display:block;
+    margin-right:10px;
+    margin-bottom: 10px;
+    background-color: #1e90ff;
+    border: 1px solid #333;
+    height: 10px;
+    width: 10px;
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+}
+
+.full-circle-warning {
+    float:left;
+    display:block;
+    margin-right:10px;
+    margin-bottom: 10px;
+    background-color: #e3bc08;
+    border: 1px solid #333;
+    height: 10px;
+    width: 10px;
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+}
+
+.full-circle-success {
+    float:left;
+    display:block;
+    margin-right:10px;
+    margin-bottom: 10px;
+    background-color: #3fb618;
+    border: 1px solid #333;
+    height: 10px;
+    width: 10px;
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+}
+
+.full-circle-important {
+    float:left;
+    display:block;
+    margin-right:10px;
+    margin-bottom: 10px;
+    background-color: #ad2121;
+    border: 1px solid #333;
+    height: 10px;
+    width: 10px;
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+}
+/*
+hr {
+    border-style: solid;
+    border-color: #d9230f;
+    border-width: 1px 0 0 0;
+}
+*/
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+    font-size: 15px;
+}
+
+.list-group {
+    text-align: center;
+    width: 500px;
+    margin: 50px auto;
+}
+
+a {
+  /*color: #2c3e50;*/
+  text-decoration: none;
+}
+
+.footer {
+    margin-left: 98px;
+    margin-right: 98px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #2c3e50;
+  background-color: transparent;
+}
+
+.subgroup-body {
+    font-size: 15px;
+    font-weight: 100;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.navbar-default .navbar-brand {
+  color: #2c3e50;
+}
+
+.navbar-default {
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 0;
+    border-bottom-color: black;
+    border-radius: 0;
+}
+
+.alert-danger {
+    background-color: #b00000;
+    border-color: #b00000;
+    color: white;
+}
+
+.alert-info {
+    background-color: #3a87ad;
+    border-color: #3a87ad;
+    color: white;
+}
+
+.jumbotron {
+    color: white;
+    /*background-color:#fcfcfc;*/
+    background: url(../Resources/seal-red.gif) 0% center #b00000 no-repeat scroll;
+}
+
+/* sidebar */
+.bs-docs-sidebar {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.affix {
+    margin-top: -480px;
+}
+
+/* all links */
+.bs-docs-sidebar .nav>li>a {
+    color: #999;
+    border-left: 2px solid transparent;
+    padding: 4px 20px;
+    line-height: 1.42857143;
+}
+
+/* nested links */
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+/* active & hover links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>li>a:hover, 
+.bs-docs-sidebar .nav>li>a:focus {
+    font-weight: 400;
+    color: black;                 
+    text-decoration: none;          
+    background-color: transparent;  
+    border-left-color: #d9230f; 
+}
+/* all active links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    font-weight: 700;
+}
+/* nested active links */
+.bs-docs-sidebar .nav .nav>.active>a, 
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+    font-weight: 500;
+}
+
+/* hide inactive nested list */
+.bs-docs-sidebar .nav ul.nav {
+    display: none;           
+}
+/* show active nested list */
+.bs-docs-sidebar .nav>.active>ul.nav {
+    display: block;           
+}
+
+img{
+    max-width:100%;
+}
+.images{
+    margin: 10px;
+}
+
+a{
+    color: #3FAAF2;
+}
