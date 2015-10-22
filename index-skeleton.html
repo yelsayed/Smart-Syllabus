@@ -55,8 +55,154 @@
             <!-- Extra info, add as many of these as you want -->
             <p class="list-group-item-text"> - Fill in extra info - </p>
         </div>
+    </div>
+
+    <!-- The body of the syllabus: there are three main parts -->
+    <div class="container">
+
+
+        <!-- Main content of syllabus -->
+        <div class="col-xs-9">
+            <!-- Change the id part with the name of the section i.e. change "fill-in-item" in the code.
+                 Also, make sure to NOT REMOVE the class="group" -->
+            <section id="fill-in-item" class="group">
+                - Fill in title of this section -
+                <hr>
+                <!-- Change the id part with the name of this subsection i.e. change the "fill-in-subitem" in the code.
+                Also, make sure to NOT REMOVE the class="subgroup" -->
+                <div id="fill-in-subitem" class="subgroup">
+                    - Fill in title of this sub-section -
+                    <!-- Where you put the body of this subsection -->
+                    <div class="subgroup-body">
+
+                        <!-- Could be a bunch of paragraphs -->
+                        <b> Paragraphs </b>
+                        <p> Fusce at lacus mauris. Ut congue aliquet erat nec volutpat. Donec id urna sit
+                            amet elit tincidunt tincidunt. Vivamus id ex ac nisl tempus lacinia eu ac metus.
+                            Nulla pretium magna volutpat tempus commodo. Sed lobortis lacus eu erat blandit dapibus.
+                            Suspendisse potenti. Aliquam accumsan luctus dui, at iaculis nisi. Nam diam arcu,
+                            fermentum non commodo sed, sagittis sed lacus. Aliquam vel mattis leo. Curabitur rutrum
+                            augue in diam rhoncus condimentum. Integer vitae neque ut nunc tempor iaculis sed sit
+                            amet sem. Nullam non pellentesque urna, sit amet sollicitudin risus.</p>
+
+                        <p> Proin at augue quis ante consequat maximus at a metus. Maecenas faucibus lobortis turpis
+                            quis condimentum. Cras eget purus ut nibh porta vulputate. Nunc ultrices risus lacus,
+                            eu scelerisque lectus placerat sit amet. In congue ex id egestas posuere.  </p>
+
+                        <p> Discussion sections will meet on Donec vitae enim gravida, placerat sem id, venenatis eros.
+                            Integer elit nunc, egestas vitae nisl sit amet, euismod luctus mauris. Vivamus at dui eu eros
+                            lobortis fringilla. Praesent sit amet lectus lacus.</p>
+
+
+                        <!-- Could be a list of things -->
+                        <b> Lists </b>
+                        <ul>
+                            <li> Interdum et malesuada fames ac ante ipsum primis in faucibus.  </li>
+                            <li> Nulla pulvinar varius nisl </li>
+                            <li> Cras lobortis velit vitae ex posuere </li>
+                        </ul>
+
+                        <!-- I made something special for grading scheme -->
+                        <p> <b> Grades will be assigned based on the following schema: </b> </p>
+                        <ul>
+                            <li> Short Assignments (eight total) <span style="float:right;"> 20% </span> </li>
+                            <li> Research Paper <span style="float:right;"> 20% </span> </li>
+                            <li> Quizzes <span style="float:right;"> 20% </span> </li>
+                            <li> Final Exam <span style="float:right;"> 20% </span> </li>
+                            <li> Class Participation <span style="float:right;"> 20% </span> </li>
+                            <li> - Fill in Activity - <span style="float:right;"> - Grade - </span> </li>
+                        </ul>
+
+                    </div>
+                    &nbsp;
+                </div>
+                <!-- Same thing as above -->
+                <div id="fill-in-another-subitem" class="subgroup">
+                    - Fill in title of another subsection -
+                    <div class="subgroup-body">
+                      Fill in some stuff here
+                    </div>
+                    &nbsp;
+                </div>
+                <br>
+            </section>
+            <!-- Another section to re-iterate -->
+            <section id="item" class="group">
+                - Title -
+                <hr>
+                <div id="sub-item" class="subgroup">
+                    - Title of subsection -
+                    <div class="subgroup-body">
+                        <p>Aliquam accumsan luctus dui, at iaculis nisi. Nam diam arcu, fermentum non commodo sed, sagittis sed lacus</p>
+                    </div>
+                    &nbsp;
+                </div>
+                <br>
+            </section>
+        </div>
+        <!-- Content of Syllabus Done! -->
+
+
+        <!-- Calendar -->
+
+
+
+        <!-- Calendar Done! -->
+
+
+        <!-- Side Bar that changes with the page -->
+        <nav class="col-xs-3 bs-docs-sidebar">
+            <ul id="sidebar" class="nav nav-stacked affix" data-spy="affix" data-offset-top="480" data-offset-bottom="-900">
+                <li>
+                    <!-- Name of the section with class "group" from the first part of "The body of the syllabus" -->
+                    <a href="#fill-in-item"> - Fill in item - </a>
+                    <ul class="nav nav-stacked">
+                        <!-- Name of the subsection with class "subgroup" from the first part of "The body-->
+                        <li><a href="#fill-in-subitem"> - Fill in subitem - </a></li>
+                        <!-- Name of another subsection -->
+                        <li><a href="#fill-in-another-subitem"> - Fill in another subitem - </a></li>
+                    </ul>
+                </li>
+
+                <!-- And another for re-iteration -->
+                <li>
+                    <a href="#item"> - Item - </a>
+                    <ul class="nav nav-stacked">
+                        <li><a href="#sub-item"> - Subitem - </a></li>
+                    </ul>
+                </li>
+
+                <!-- Calender item, make sure this is the last thing on the sidebar -->
+                <li>
+                    <!-- Don't change this, you can change the name if you want but not the "href"-->
+                    <a href="#calendar"> Course Calendar </a>
+                </li>
+
+
+            </ul>
+        </nav>
+        <!-- Side Bar Done! -->
+
 
     </div>
+
+
+    <!-- Footer to add to the fanciness, Remove if you want -->
+    <div class="footer">
+        <br>
+        <hr>
+        <p>&copy; Ben Reilly - Carnegie Mellon University Qatar </p>
+    </div>
+
+
+
+    <!-- Don't Touch START -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/side-bar.js"></script>
+    <!-- Don't Touch END -->
 
 </body>
 </html>
